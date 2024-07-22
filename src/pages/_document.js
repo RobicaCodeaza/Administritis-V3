@@ -115,7 +115,7 @@ window.dataLayer = window.dataLayer || []
    
 </script>
 
-<title>Administritis | Servicii de Administrare</title>
+<title>Administritis | Servicii de Administrare Imobile</title>
 
        </Head>
         <body>

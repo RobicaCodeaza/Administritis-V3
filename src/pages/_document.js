@@ -125,7 +125,7 @@ window.dataLayer = window.dataLayer || []
 <script
     async
     defer
-    crossorigin="anonymous"
+    crossOrigin="anonymous"
     src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v20.0"
     nonce="1pGywvYy"
 ></script>

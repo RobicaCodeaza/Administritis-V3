@@ -24,7 +24,7 @@ const StyledLine = styled.img`
     height: 100%;
     width: 100%;
     left: 0;
-    bottom: -50px;
+    bottom: -50%;
     object-fit: cover;
 `
 

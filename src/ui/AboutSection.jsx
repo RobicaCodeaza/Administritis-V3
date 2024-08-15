@@ -16,10 +16,10 @@ const StyledAboutSection = styled.section`
   transition: all 0.3s ease-in;
 `;
 const AboutDescription = styled.p`
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 1px;
-  line-height: 1.8;
+  line-height: 1.7;
   align-self: end;
   color: var(--color-grey-dark);
 `;
@@ -101,11 +101,12 @@ function AboutSection() {
               ></StyledLine>
             </Heading>
           </Row>
+          <Row typeof='vertical'>
+<div>Administrare Imobile Eficientă și Sigură în Sectoarele 3, 4 și 5 din București</div>
           <AboutDescription>
-            Serviciile noastre de administrare imobile se desfasoara in
-            Sectoarele 3,4 si 5 si se concentreaza pe eficienta costurilor,
-            promptitudinea si siguranta serviciilor.
+          Administrarea imobilelor este o responsabilitate complexă care necesită o abordare profesionistă, orientată către nevoile reale ale proprietarilor și locatarilor. La Administritis, ne dedicăm oferirii de servicii de administrare imobile în Sectoarele 3, 4 și 5 din București, punând accent pe eficiența costurilor, promptitudinea serviciilor și siguranța datelor.
           </AboutDescription>
+          </Row>
         </Grid>
         <Grid columns='1fr 1fr' gap='0 4.4rem'>
           <AboutPhoto
@@ -115,6 +116,7 @@ function AboutSection() {
           <AboutUsList>
             <AboutUsBullet>
               {/* <Icon></Icon> */}
+
               <IconBackground color='#C2D9FF' size='large'>
                 <Icon color={'#7752FE'} hovercolor='#140368' sizes='tiny'>
                   <GrOptimize></GrOptimize>
@@ -124,8 +126,7 @@ function AboutSection() {
                 Prioritate
               </Heading>
               <AboutDescription>
-                Prioritatea noastră este securitatea ta, alături de optimizarea
-                cheltuielilor și reacția promptă la nevoile tale.
+              Pentru noi, securitatea și satisfacția clienților sunt pe primul loc. Ne concentrăm pe optimizarea cheltuielilor pentru asociațiile de proprietari, asigurând totodată un răspuns prompt la orice problemă sau necesitate. Ne angajăm să îți oferim soluții rapide și eficiente pentru orice situație, astfel încât tu să te poți bucura de confortul locuinței tale, fără griji suplimentare.
               </AboutDescription>
             </AboutUsBullet>
             <AboutUsBullet>
@@ -138,9 +139,7 @@ function AboutSection() {
                 Protectie
               </Heading>
               <AboutDescription>
-                Garantăm o protecție adecvată a datelor, fie că este vorba
-                despre stocarea pe hârtie sau în format electronic pe servere
-                securizate.
+              În era digitală, protecția datelor este esențială. La Administritis, ne asigurăm că toate informațiile tale sunt protejate, fie că vorbim despre documente pe suport de hârtie sau despre date stocate electronic pe servere securizate. Implementăm cele mai bune practici în domeniul securității cibernetice, garantând astfel că informațiile tale sunt în siguranță, indiferent de circumstanțe.
               </AboutDescription>
             </AboutUsBullet>
             <AboutUsBullet>
@@ -153,10 +152,7 @@ function AboutSection() {
                 Acces Facil
               </Heading>
               <AboutDescription>
-                Oferim acces facil și securizat pentru fiecare proprietar prin
-                intermediul sistemelor online, facilitând introducerea
-                indexurilor la apă și accesul la informațiile relevante ale
-                asociației într-un singur clic.
+              Unul dintre obiectivele noastre principale este să asigurăm un acces facil și transparent la informațiile relevante pentru toți proprietarii. Prin intermediul sistemelor online pe care le punem la dispoziție, fiecare proprietar poate accesa rapid informațiile despre asociație, poate introduce indexul la apă sau poate verifica alte detalii importante, totul cu un singur clic. Acest nivel de accesibilitate și transparență este esențial pentru o administrare modernă și eficientă a imobilelor.
               </AboutDescription>
             </AboutUsBullet>
           </AboutUsList>

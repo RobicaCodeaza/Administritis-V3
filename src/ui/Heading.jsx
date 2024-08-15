@@ -44,6 +44,7 @@ ${(props) =>
     ${(props) =>
         props.as == 'h4' &&
         css`
+        
             text-transform: uppercase;
             font-size: 1.6rem;
             font-weight: 600;

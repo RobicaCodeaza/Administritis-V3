@@ -106,8 +106,8 @@ function AboutSection() {
           <Row typeof='vertical'>
 <AboutTitle>Administrare Imobile Eficientă și Sigură în Sectoarele 3, 4 și 5 din București</AboutTitle>
           <AboutDescription>
-          Administrarea imobilelor este o responsabilitate complexă care necesită o abordare profesionistă, orientată către nevoile reale ale proprietarilor și locatarilor. La Administritis, ne dedicăm oferirii de servicii de administrare imobile în Sectoarele 3, 4 și 5 din București, punând accent pe eficiența costurilor, promptitudinea serviciilor și siguranța datelor.
-          </AboutDescription>
+          Serviciile noastre de administrare imobile sunt disponibile în Sectorul 3 și se axează pe asigurarea unui mediu sigur și eficient pentru toți locatarii. Cu o firmă specializată în administrarea blocurilor și a asociațiilor de proprietari, ne asigurăm că fiecare aspect al administrării imobilelor este gestionat profesional. Indiferent dacă este vorba de administrarea contabilității sau de administrarea tehnică, suntem aici pentru a oferi soluții complete și personalizate.
+</AboutDescription>
           </Row>
         </Grid>
         <Grid columns='1fr 1fr' gap='0 4.4rem'>
@@ -128,8 +128,8 @@ function AboutSection() {
                 Prioritate
               </Heading>
               <AboutDescription>
-              Pentru noi, securitatea și satisfacția clienților sunt pe primul loc. Ne concentrăm pe optimizarea cheltuielilor pentru asociațiile de proprietari, asigurând totodată un răspuns prompt la orice problemă sau necesitate. Ne angajăm să îți oferim soluții rapide și eficiente pentru orice situație, astfel încât tu să te poți bucura de confortul locuinței tale, fără griji suplimentare.
-              </AboutDescription>
+              La Administritis, prioritatea noastră este să oferim servicii de administrare rapide și sigure, axate pe protecția datelor și pe securitatea imobilelor. Fie că gestionezi o asociație de proprietari sau un bloc, noi asigurăm administrarea imobilelor cu eficiență maximă, reducând costurile și optimizând cheltuielile. Securitatea datelor este garantată prin măsuri stricte de protecție, fie că informațiile sunt stocate electronic sau pe hârtie.
+</AboutDescription>
             </AboutUsBullet>
             <AboutUsBullet>
          
@@ -142,7 +142,7 @@ function AboutSection() {
               Protectie
               </Heading>
               <AboutDescription>
-              În era digitală, protecția datelor este esențială. La Administritis, ne asigurăm că toate informațiile tale sunt protejate, fie că vorbim despre documente pe suport de hârtie sau despre date stocate electronic pe servere securizate. Implementăm cele mai bune practici în domeniul securității cibernetice, garantând astfel că informațiile tale sunt în siguranță, indiferent de circumstanțe.
+              Securitatea este un element central al serviciilor noastre. Asigurăm protecția completă a datelor și a informațiilor, indiferent de format. Fiecare aspect al administrării tehnice este gestionat cu atenție, astfel încât imobilele și locatarii să beneficieze de un mediu sigur. Sistemele noastre includ măsuri avansate de securitate, asigurând protecția completă a imobilelor gestionate.
               </AboutDescription>
             </AboutUsBullet>
             <AboutUsBullet>
@@ -156,7 +156,7 @@ function AboutSection() {
               Acces Facil
               </Heading>
               <AboutDescription>
-              Unul dintre obiectivele noastre principale este să asigurăm un acces facil și transparent la informațiile relevante pentru toți proprietarii. Prin intermediul sistemelor online pe care le punem la dispoziție, fiecare proprietar poate accesa rapid informațiile despre asociație, poate introduce indexul la apă sau poate verifica alte detalii importante, totul cu un singur clic. Acest nivel de accesibilitate și transparență este esențial pentru o administrare modernă și eficientă a imobilelor.
+              Un alt punct forte al serviciilor noastre este accesul facil pe care îl oferim proprietarilor. Prin intermediul sistemelor noastre online, fiecare proprietar are acces securizat la informațiile relevante ale asociației, poate introduce rapid indexurile la apă, și poate consulta toate detaliile financiare, inclusiv cotele de întreținere. Totul este la un singur clic distanță, oferind un nivel de transparență și eficiență de neegalat.
               </AboutDescription>
             </AboutUsBullet>
           </AboutUsList>

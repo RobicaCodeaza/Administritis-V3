@@ -146,7 +146,7 @@ function Servicii() {
   return (
     <StyledServicii>
       <Row $type='horizontal' $justifycontent='center'>
-        <Heading as='h3'>
+        <Heading as='h1'>
           Servicii
           <StyledLine
             alt='Linie dreapta pentru accent'

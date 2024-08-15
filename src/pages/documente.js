@@ -48,7 +48,7 @@ function Documente() {
     return (
         <StyledDocumente>
             <Row $type="horizontal" $justifycontent="center">
-                <Heading as="h3">
+                <Heading as="h1">
                     Documente Utile
                     <StyledLine
                         alt="Linie dreapta pentru accent"

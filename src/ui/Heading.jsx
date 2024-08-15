@@ -44,7 +44,9 @@ ${(props) =>
     ${(props) =>
         props.as == 'h4' &&
         css`
-        
+        display:flex;
+        align-items:center;
+        gap:2.4rem; 
             text-transform: uppercase;
             font-size: 1.6rem;
             font-weight: 600;

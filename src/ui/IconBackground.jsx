@@ -13,7 +13,7 @@ const sizes = {
 };
 
 const StyledIconBackground = styled.div`
-  width: max-content;
+  width:${(props)=>props.contentSize};
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -22,12 +22,21 @@ const StyledIconBackground = styled.div`
   ${(props) => sizes[props.$size]};
 `;
 
-function IconBackground({ children, size, color }) {
+function IconBackground({ children, size, color,contentSize }) {
+  if(contentSize==='max-content')
   return (
-    <StyledIconBackground $size={size} $color={color}>
+    <StyledIconBackground $size={size} $color={color} contentSize = 'max-content'>
       {children}
     </StyledIconBackground>
-  );
+
+  )
+  else  return (
+    <StyledIconBackground $size={size} $color={color} contentSize = {contentSize}>
+      {children}
+    </StyledIconBackground>
+
+  ) ;
 }
+IconBackground.defaultProps = {contentSize:'max-content'}
 
 export default IconBackground;

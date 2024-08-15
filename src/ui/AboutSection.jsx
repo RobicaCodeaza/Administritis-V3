@@ -23,6 +23,8 @@ const AboutDescription = styled.p`
   align-self: end;
   color: var(--color-grey-dark);
 `;
+const AboutTitle = styled.p`font-size:1.6rem; 
+text-align:center; font-weight:400`
 
 const AboutPhoto = styled.img`
   height: 50rem;
@@ -102,7 +104,7 @@ function AboutSection() {
             </Heading>
           </Row>
           <Row typeof='vertical'>
-<div>Administrare Imobile Eficientă și Sigură în Sectoarele 3, 4 și 5 din București</div>
+<AboutTitle>Administrare Imobile Eficientă și Sigură în Sectoarele 3, 4 și 5 din București</AboutTitle>
           <AboutDescription>
           Administrarea imobilelor este o responsabilitate complexă care necesită o abordare profesionistă, orientată către nevoile reale ale proprietarilor și locatarilor. La Administritis, ne dedicăm oferirii de servicii de administrare imobile în Sectoarele 3, 4 și 5 din București, punând accent pe eficiența costurilor, promptitudinea serviciilor și siguranța datelor.
           </AboutDescription>
@@ -117,12 +119,12 @@ function AboutSection() {
             <AboutUsBullet>
               {/* <Icon></Icon> */}
 
-              <IconBackground color='#C2D9FF' size='large'>
+              <Heading as='h4' margin='1.2rem 0 0.8rem 0'>
+              <IconBackground color='#C2D9FF' size='large' contentSize='min-content'>
                 <Icon color={'#7752FE'} hovercolor='#140368' sizes='tiny'>
                   <GrOptimize></GrOptimize>
                 </Icon>
               </IconBackground>
-              <Heading as='h4' margin='1.2rem 0 0.8rem 0'>
                 Prioritate
               </Heading>
               <AboutDescription>
@@ -130,26 +132,28 @@ function AboutSection() {
               </AboutDescription>
             </AboutUsBullet>
             <AboutUsBullet>
+         
+              <Heading as='h4' margin='1.2rem 0 0.8rem 0'>
               <IconBackground color='#C2D9FF' size='large'>
                 <Icon color={'#7752FE'} hovercolor='#140368' sizes='tiny'>
                   <GrSecure></GrSecure>
                 </Icon>
-              </IconBackground>
-              <Heading as='h4' margin='1.2rem 0 0.8rem 0'>
-                Protectie
+              </IconBackground> 
+              Protectie
               </Heading>
               <AboutDescription>
               În era digitală, protecția datelor este esențială. La Administritis, ne asigurăm că toate informațiile tale sunt protejate, fie că vorbim despre documente pe suport de hârtie sau despre date stocate electronic pe servere securizate. Implementăm cele mai bune practici în domeniul securității cibernetice, garantând astfel că informațiile tale sunt în siguranță, indiferent de circumstanțe.
               </AboutDescription>
             </AboutUsBullet>
             <AboutUsBullet>
+             
+              <Heading as='h4' margin='1.2rem 0 0.8rem 0'>
               <IconBackground color='#C2D9FF' size='large'>
                 <Icon color={'#7752FE'} hovercolor='#140368' sizes='tiny'>
                   <TiCloudStorageOutline></TiCloudStorageOutline>
                 </Icon>
               </IconBackground>
-              <Heading as='h4' margin='1.2rem 0 0.8rem 0'>
-                Acces Facil
+              Acces Facil
               </Heading>
               <AboutDescription>
               Unul dintre obiectivele noastre principale este să asigurăm un acces facil și transparent la informațiile relevante pentru toți proprietarii. Prin intermediul sistemelor online pe care le punem la dispoziție, fiecare proprietar poate accesa rapid informațiile despre asociație, poate introduce indexul la apă sau poate verifica alte detalii importante, totul cu un singur clic. Acest nivel de accesibilitate și transparență este esențial pentru o administrare modernă și eficientă a imobilelor.

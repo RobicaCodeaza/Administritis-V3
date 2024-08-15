@@ -1,4 +1,5 @@
 import { BiSolidDownload } from 'react-icons/bi'
+import Head from 'next/head'
 
 import Heading from '@/ui/Heading.jsx'
 import Row from '@/ui/Row.jsx'
@@ -23,7 +24,7 @@ const StyledLine = styled.img`
     height: 100%;
     width: 100%;
     left: 0;
-    bottom: -20px;
+    bottom: -50px;
     object-fit: cover;
 `
 
@@ -46,6 +47,11 @@ const DownloadLink = styled.a`
 
 function Documente() {
     return (
+        <>
+        <Head>
+        <title>Administrare Imobile | Documente necesare</title>
+        <meta name="description" content="Documente necesare locatari. Administrare imobile documente necesare." />
+      </Head>
         <StyledDocumente>
             <Row $type="horizontal" $justifycontent="center">
                 <Heading as="h1">
@@ -53,14 +59,14 @@ function Documente() {
                     <StyledLine
                         alt="Linie dreapta pentru accent"
                         src="/assets/underline_straight.webp"
-                    ></StyledLine>
+                        ></StyledLine>
                 </Heading>
             </Row>
             <Row
                 $type="horizontal"
                 $justifycontent="center"
                 $margin="3.2rem 0 4rem 0"
-            >
+                >
                 <p>
                     Mai jos puteti gasi documente ce trebuiesc a fi utilizate in
                     cadrul asociatiei de proprietar. Acestea reprezinta o serie
@@ -112,6 +118,7 @@ function Documente() {
                 </DownloadLink>
             </Row>
         </StyledDocumente>
+                </>
     )
 }
 

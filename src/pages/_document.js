@@ -39,10 +39,6 @@ export default class MyDocument extends Document {
     rel="stylesheet"
 />
 
-<meta
-    name="description"
-    content="Administrare imobile | Servicii de Administrare a Blocurilor | Soluții Prompte și Transparente | Contabilitate, casierie si administrare tehnica | Administrare completa"
-/>
 <meta name="robots" content="index, follow" />
 
 <meta
@@ -115,7 +111,6 @@ window.dataLayer = window.dataLayer || []
    
 </script>
 
-<title>Administritis | Servicii de Administrare Imobile</title>
 
        </Head>
         <body>

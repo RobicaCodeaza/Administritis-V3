@@ -1,5 +1,6 @@
-import styled from 'styled-components';
 import { useState } from 'react';
+import Head from 'next/head'
+import styled from 'styled-components';
 import { CiCircleCheck } from 'react-icons/ci';
 import Heading from '@/ui/Heading.jsx';
 import Row from '@/ui/Row.jsx';
@@ -135,7 +136,7 @@ const StyledLine = styled.img`
   height: 100%;
   width: 100%;
   left: 0;
-  bottom: -20px;
+  bottom: -50px;
   object-fit: cover;
 `;
 function Servicii() {
@@ -144,6 +145,14 @@ function Servicii() {
   const content = contentAccordion[`content${currentContent}`];
 
   return (
+    <>
+     <Head>
+        <title>Administrare Imobile | Servicii Oferite de noi</title>
+        <meta
+    name="description"
+    content="Administrare imobile | Servicii de Administrare a Blocurilor | Soluții Prompte și Transparente | Contabilitate, casierie si administrare tehnica | Administrare completa"
+/>
+      </Head>
     <StyledServicii>
       <Row $type='horizontal' $justifycontent='center'>
         <Heading as='h1'>
@@ -151,7 +160,7 @@ function Servicii() {
           <StyledLine
             alt='Linie dreapta pentru accent'
             src='/assets/underline_straight.webp'
-          ></StyledLine>
+            ></StyledLine>
         </Heading>
       </Row>
       <Accordion>
@@ -160,7 +169,7 @@ function Servicii() {
             content='1'
             className={currentContent === 1 ? 'active' : ''}
             onClick={() => setCurrentContent(1)}
-          >
+            >
             <Icon color={'#7752FE'} hovercolor='#140368' sizes='tiny'>
               <RiCheckboxMultipleFill></RiCheckboxMultipleFill>
             </Icon>
@@ -170,7 +179,7 @@ function Servicii() {
             content='2'
             className={currentContent === 2 ? 'active' : ''}
             onClick={() => setCurrentContent(2)}
-          >
+            >
             <Icon color={'#7752FE'} hovercolor='#140368' sizes='tiny'>
               <IoDocumentTextOutline></IoDocumentTextOutline>
             </Icon>
@@ -185,7 +194,7 @@ function Servicii() {
             content='3'
             className={currentContent === 3 ? 'active' : ''}
             onClick={() => setCurrentContent(3)}
-          >
+            >
             <Icon color={'#7752FE'} hovercolor='#140368' sizes='tiny'>
               <VscTools></VscTools>
             </Icon>
@@ -204,6 +213,7 @@ function Servicii() {
         </AccordionContentList>
       </Accordion>
     </StyledServicii>
+  </>
   );
 }
 
